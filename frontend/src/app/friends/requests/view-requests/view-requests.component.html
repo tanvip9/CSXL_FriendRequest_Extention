@@ -1,0 +1,46 @@
+<div class="table-and-buttons-container">
+  <mat-card class="content" appearance="outlined">
+    <mat-card-header>
+      <mat-card-title>Received Friend Requests</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="table-container">
+        <table
+          mat-table
+          [dataSource]="(receivedRequests$ | async)!"
+          class="mat-elevation-z8">
+          <!-- Name Column -->
+          <ng-container matColumnDef="name">
+            <th mat-header-cell *matHeaderCellDef>Name</th>
+            <td mat-cell *matCellDef="let request">
+              {{ request.first_name }} {{ request.last_name }}
+            </td>
+          </ng-container>
+
+          <!-- Actions Column -->
+          <ng-container matColumnDef="actions">
+            <th mat-header-cell *matHeaderCellDef>Action</th>
+            <td mat-cell *matCellDef="let request">
+              <button mat-button (click)="acceptRequest(request.pid)">
+                Accept
+              </button>
+              <button mat-button (click)="rejectRequest(request.pid)">
+                Reject
+              </button>
+            </td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="['name', 'actions']"></tr>
+          <tr
+            mat-row
+            *matRowDef="let request; columns: ['name', 'actions']"></tr>
+        </table>
+      </div>
+    </mat-card-content>
+  </mat-card>
+  <div class="navigation-buttons">
+    <button mat-stroked-button routerLink="/send-request">Send Request</button>
+    <button mat-stroked-button routerLink="/view-friends">View Friends</button>
+    <button mat-stroked-button routerLink="/friendship">Back to Home</button>
+  </div>
+</div>

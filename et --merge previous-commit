@@ -1,0 +1,46 @@
+[33ma767236[m[33m ([m[1;36mHEAD -> [m[1;32msp02-UI[m[33m, [m[1;31morigin/sp02-UI[m[33m, [m[1;32msp02-coworking[m[33m)[m HEAD@{0}: checkout: moving from sp02 to sp02-UI
+[33mbef39cf[m[33m ([m[1;31morigin/sp02[m[33m, [m[1;32msp02[m[33m)[m HEAD@{1}: checkout: moving from sp02-UI to sp02
+[33ma767236[m[33m ([m[1;36mHEAD -> [m[1;32msp02-UI[m[33m, [m[1;31morigin/sp02-UI[m[33m, [m[1;32msp02-coworking[m[33m)[m HEAD@{2}: pull --all: Fast-forward
+[33m1b87320[m HEAD@{3}: reset: moving to HEAD~1
+[33ma767236[m[33m ([m[1;36mHEAD -> [m[1;32msp02-UI[m[33m, [m[1;31morigin/sp02-UI[m[33m, [m[1;32msp02-coworking[m[33m)[m HEAD@{4}: checkout: moving from sp02-coworking to sp02-UI
+[33ma767236[m[33m ([m[1;36mHEAD -> [m[1;32msp02-UI[m[33m, [m[1;31morigin/sp02-UI[m[33m, [m[1;32msp02-coworking[m[33m)[m HEAD@{5}: merge sp02-UI: Fast-forward
+[33m25cedf9[m[33m ([m[1;31morigin/stage[m[33m, [m[1;31morigin/sp02-coworking[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mstage[m[33m)[m HEAD@{6}: checkout: moving from sp02-UI to sp02-coworking
+[33ma767236[m[33m ([m[1;36mHEAD -> [m[1;32msp02-UI[m[33m, [m[1;31morigin/sp02-UI[m[33m, [m[1;32msp02-coworking[m[33m)[m HEAD@{7}: pull origin sp02-UI: Fast-forward
+[33m1db5a1c[m HEAD@{8}: checkout: moving from sp02-coworking to sp02-UI
+[33m25cedf9[m[33m ([m[1;31morigin/stage[m[33m, [m[1;31morigin/sp02-coworking[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mstage[m[33m)[m HEAD@{9}: checkout: moving from sp02-UI to sp02-coworking
+[33m1db5a1c[m HEAD@{10}: reset: moving to HEAD
+[33m1db5a1c[m HEAD@{11}: commit: Added Routing Module
+[33me76af3d[m HEAD@{12}: checkout: moving from stage to sp02-UI
+[33m25cedf9[m[33m ([m[1;31morigin/stage[m[33m, [m[1;31morigin/sp02-coworking[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mstage[m[33m)[m HEAD@{13}: pull --tags origin stage: Fast-forward
+[33mdb685a8[m HEAD@{14}: checkout: moving from repl-demo to stage
+[33m65017e9[m[33m ([m[1;32mrepl-demo[m[33m)[m HEAD@{15}: checkout: moving from 65017e974e6f747545e663f886375493b4a8c747 to repl-demo
+[33m65017e9[m[33m ([m[1;32mrepl-demo[m[33m)[m HEAD@{16}: checkout: moving from sp01-story2 to upstream/main
+[33m0756887[m[33m ([m[1;32msp01-story2[m[33m)[m HEAD@{17}: pull: Fast-forward
+[33m321dd51[m HEAD@{18}: commit: Fix title for view request page
+[33m55fba03[m HEAD@{19}: commit: Add new page to view all friendships
+[33mc202f1a[m HEAD@{20}: checkout: moving from sp01-story1 to sp01-story2
+[33m78fbef3[m[33m ([m[1;31morigin/sp01-story1[m[33m, [m[1;32msp01-story1[m[33m)[m HEAD@{21}: checkout: moving from sp01 to sp01-story1
+[33m850f0b3[m[33m ([m[1;32msp01[m[33m)[m HEAD@{22}: pull: Fast-forward
+[33m47de2ee[m HEAD@{23}: checkout: moving from sp01-story1 to sp01
+[33m78fbef3[m[33m ([m[1;31morigin/sp01-story1[m[33m, [m[1;32msp01-story1[m[33m)[m HEAD@{24}: pull: Fast-forward
+[33me24be9a[m HEAD@{25}: pull origin sp01-story1: Merge made by the 'ort' strategy.
+[33m1663099[m HEAD@{26}: checkout: moving from sp01 to sp01-story1
+[33m47de2ee[m HEAD@{27}: checkout: moving from sp01 to sp01
+[33m47de2ee[m HEAD@{28}: checkout: moving from sp01-story1 to sp01
+[33m1663099[m HEAD@{29}: checkout: moving from sp01 to sp01-story1
+[33m47de2ee[m HEAD@{30}: pull --tags origin sp01: Fast-forward
+[33m9d55a7f[m[33m ([m[1;31morigin/sp00-frontend[m[33m)[m HEAD@{31}: checkout: moving from sp01-story1 to sp01
+[33m1663099[m HEAD@{32}: commit (merge): Merge branch 'sp01-story1' of https://github.com/comp423-23f/csxl-final-team-d1 into sp01-story1
+[33m3399316[m HEAD@{33}: checkout: moving from ce2578224f5e30d6e31d04336ba48b87ecd24bb2 to sp01-story1
+[33mce25782[m HEAD@{34}: commit: Fix merge conflict
+[33m0cf7b6f[m HEAD@{35}: pull origin sp01-story1 --rebase (start): checkout 0cf7b6f2129e3ee3438fb721fe5a8f94ca491afa
+[33m3399316[m HEAD@{36}: commit: Pull from most recent commit
+[33m029fec8[m HEAD@{37}: checkout: moving from sp01-story1 to sp01-story1
+[33m029fec8[m HEAD@{38}: checkout: moving from sp01-story1 to sp01-story1
+[33m029fec8[m HEAD@{39}: commit: Committing my changes before pulling
+[33ma73a0cf[m HEAD@{40}: checkout: moving from sp01-story1 to sp01-story1
+[33ma73a0cf[m HEAD@{41}: checkout: moving from sp01-story1 to sp01-story1
+[33ma73a0cf[m HEAD@{42}: commit: Add Friendship Table Entity into DB
+[33m9d55a7f[m[33m ([m[1;31morigin/sp00-frontend[m[33m)[m HEAD@{43}: checkout: moving from sp01 to sp01-story1
+[33m9d55a7f[m[33m ([m[1;31morigin/sp00-frontend[m[33m)[m HEAD@{44}: checkout: moving from stage to sp01
+[33mdb685a8[m HEAD@{45}: clone: from https://github.com/comp423-23f/csxl-final-team-d1.git
